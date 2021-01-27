@@ -73,3 +73,7 @@ The audio is still very, very loud overall (the VU meter was stuck in this posit
 ## Enhancing Stereo Width
 
 Stereo width is effectively the term used for the pseudo-"stage" of sound that is represented by (normally) the left and right channels of audio. Using techniques such as balance and pan, can add lots of dimension to the mix, if used correctly. The Beatles' records do this quite effectively, seperating instrumentals and vocal tracks to the left and right channels almost entirely. Another way to enhance stereo width is with EQ - increasing the EQ on lead tracks in the 2.5-5Khz range (the "presence zone", AKA what we hear the clearest) can add dimension to the final mix pretty easily. Overuse of stereo width can result in a bad mix (imagine if I could only hear the vocals in my left ear for the whole of Bohemian Rhapsody - it wouldn't sound good), but used correctly, it means that your mix will sound wicked, regardless of if on a pair of headphones or a proper stereo speaker setup.
+
+![Enhancing stereo width](https://toaster.sh/i/krmf.png)
+
+In this case, I'm using automation to split a vocal track with a backing vocal track by panning the main vox to the left, and the backing vox to the right, much like what is heard in the "little high, little low" verse of Bohemian Rhapsody.
