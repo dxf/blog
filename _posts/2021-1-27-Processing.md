@@ -25,7 +25,7 @@ When used too much, it can un-necessarily make frequencies sound too punchy and 
 
 Each of the dots on the graph can be dragged to create curves on the EQ graph that change the tonal property of the track. For example, dragging the right hand side all the way up...
 
-https://toaster.sh/i/97ko.png
+![High Frequency Boost](https://toaster.sh/i/97ko.png)
 
 In this clip of almost-dead air, the only thing you can hear is lots of hiss due to the high frequencies being boosted beyond any level that is reasonable.
 
