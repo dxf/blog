@@ -1,9 +1,9 @@
 ---
 layout: post
-title: A basic overview of mixing using DAW software.
+title: An overview of mixing using DAW software.
 ---
 
-This post is literally a piece of coursework. The brief tells me to make "A blog with illustrative examples of mixing and mastering using a DAW." So here I am!
+I've been asked by some friends to make a blog post about mixing in Audition, so here goes!
 
 This blog won't cover DAW basics, such as adjusting levels, automation etc but is more geared towards using slightly more involved elements of mixing.
 
@@ -21,12 +21,26 @@ Monitoring audio in the mix is really easy with Adobe Audition. Every track has 
 Parametric EQ is essentially what allows me to edit the tonal properties of the audio track. If you use Logic, like I do on my Mac, all of the EQ plugins are parametric anyway, but parametric essentially just means that it has a graph that you can adjust the parameters on to change the sound of the audio. I'm going to use it on my kickdrum stem to add more punch to the sound.
 When used too much, it can un-necessarily make frequencies sound too punchy and drown out other frequencies, making the mix much more difficult to process. For example, too much bass makes the mix sound very muddy, and drowns out high frequencies. When used correctly, it can add warmth and punch to the mix, pronouncing certain parts of the mix clearly, resulting in a more enjoyable listening experience.
 
+![Parametric EQ](https://toaster.sh/i/a1bk.png)
+
+Each of the dots on the graph can be dragged to create curves on the EQ graph that change the tonal property of the track. For example, dragging the right hand side all the way up...
+
+https://toaster.sh/i/97ko.png
+
+In this clip of almost-dead air, the only thing you can hear is lots of hiss due to the high frequencies being boosted beyond any level that is reasonable.
+
 ## Noise Gate
 
 A noise gate is a really easy way to prevent any noise that isn't the subject from playing on a recording, as it only lets audio that hits a threshold (in dB) through its filter. Of course, the ideal situation would be that you record in a properly treated studio, but even then there can be some noises like sound bleed that can occur that may sneak their way into your recording.
 However, if you misuse a noise filter, it can lead to pretty disastrous effect. Overusing a noise filter will cause the track to start unexpectedly cutting out during playback as the gate will be blocking too much sound. On the other hand, used correctly, it can help reduce ambient noise to produce a cleaner mix.
 
 By the way, turning up the fade is a must if your audio has variable levels - if your audio source dips just slightly below the required level, it will fade it but not cut it for the fraction of a second which the audio is under the gate, which means it still sounds natural in the final mix.
+
+![https://toaster.sh/i/z9h2.png](GGate noise gate plugin)
+
+Each of the dials on the screen represents a different setting - threshold, for how loud the audio needs to be for it to kick in, attack, for how fast it reacts to changes in volume, and fade, for how long it will fade out signals that do not pass the noise gate. The percentage meter shows how much of the threshold is being met.
+
+N.B - For some reason, Audition doesn't come with a basic noise gate plugin, so I'm using the fantastic GGate plugin.
 
 ## Compressors
 
@@ -39,6 +53,8 @@ In essence, they squish your audio down (reducing dynamic range to create a "box
 ## Master Bus Compression / Multiband Compression
 
 Master bus compression is the same thing as compression, but instead of only being applied to a single track, it is applied to the whole master bus. Crazy, right? I chose to use a multiband compressor. This allows me to apply different amounts of compression to different frequency ranges across the band. This configurable, modular kind of compressor is very handy when used on a complex mix, and also  When used correctly, it not only evens levels, but also adds warmth/brightness depending on configuration. My configuration for the multiband compressor was one intended to add lots of punch to the mix, as I feel like that will help bring the mix into the 21st century, where lots of poppier tracks have strong bass lines. It also balances highs, while keeping them at a manageable volume.
+
+![Multiband Compressor on the Master bus](https://toaster.sh/i/6r4y.png)
 
 ## Brickwall Limiter
 
