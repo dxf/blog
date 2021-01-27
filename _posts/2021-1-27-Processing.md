@@ -36,7 +36,7 @@ However, if you misuse a noise filter, it can lead to pretty disastrous effect. 
 
 By the way, turning up the fade is a must if your audio has variable levels - if your audio source dips just slightly below the required level, it will fade it but not cut it for the fraction of a second which the audio is under the gate, which means it still sounds natural in the final mix.
 
-![https://toaster.sh/i/z9h2.png](GGate noise gate plugin)
+![GGate noise gate plugin](https://toaster.sh/i/z9h2.png)
 
 Each of the dials on the screen represents a different setting - threshold, for how loud the audio needs to be for it to kick in, attack, for how fast it reacts to changes in volume, and fade, for how long it will fade out signals that do not pass the noise gate. The percentage meter shows how much of the threshold is being met.
 
