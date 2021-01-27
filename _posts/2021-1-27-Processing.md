@@ -7,8 +7,6 @@ This post is literally a piece of coursework. The brief tells me to make "A blog
 
 This blog won't cover DAW basics, such as adjusting levels, automation etc but is more geared towards using slightly more involved elements of mixing.
 
-The reference track used in all of these clips is Queen's "Don't Stop Me Now". The stems are available online if you want to try them yourself!
-
 ## Effects Processing In The Mix
 
 To add effects in Audition, select a track to apply effects to (this also includes the master track), go to your effects rack, hit track effects and add plugins of your choice!
